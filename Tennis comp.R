@@ -12,6 +12,9 @@ library(lubridate)
 
 library(ggplot2)
 
+install.packages("esquisse")
+library(esquisse)
+
 
 Tennis <- read.csv("tennisdata.csv" , header = TRUE , stringsAsFactors = FALSE)
 
